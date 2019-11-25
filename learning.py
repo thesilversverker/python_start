@@ -2,7 +2,10 @@
 #This is a test script#####################
 ###########################################
 
-cat = ['grey', 'chonk', 'mean']
-color, size, attitude = cat
+spam = 42
+spam += 1
 
-print(attitude)
+print(spam)
+
+spam += 1
+print(spam)
