@@ -2,10 +2,10 @@
 #This is a test script#####################
 ###########################################
 
-spam = 42
-spam += 1
+spam = ['hello', 'hi', 'howdy', 'heyas']
+print(spam.index('hi'))
 
+spam.insert(1, 'chicken')
+spam.append('moose')
 print(spam)
 
-spam += 1
-print(spam)
